@@ -1,8 +1,41 @@
 body {
     background-color: white;
+    margin: 0;
 }
+nav {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    display: block;
+    top: 0;
+}
+
+.nav_button {
+
+    height: 50px;
+    width: 150px;
+    background: none;
+    border: 0;
+    font-size: 24px;
+}
+    .nav_button:hover {
+        cursor: pointer;
+        background-color: black;
+        color: white;
+
+    }
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: black;
     }
+    .nav_button {
+        color: white;
+    }
+        .nav_button:hover {
+            background-color: white;
+            color: black;
+        }
 }
+
