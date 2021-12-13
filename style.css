@@ -12,7 +12,6 @@ nav {
 }
 
 .nav_button {
-
     height: 50px;
     width: 150px;
     background: none;
@@ -23,7 +22,6 @@ nav {
         cursor: pointer;
         background-color: black;
         color: white;
-
     }
 
 @media (prefers-color-scheme: dark) {
