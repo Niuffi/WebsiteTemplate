@@ -4,7 +4,6 @@ body {
     position: relative;
     min-height: 100vh;
     height: 100%;
-
     display: block;
 }
 nav {
@@ -29,10 +28,9 @@ nav {
     }
 main{
     height: 1200px;
-
     width: 1000px;
     max-width: 100%;
-    min-width: 800px;
+    min-width: 400px;
     margin: 50px auto 300px auto;
     background-color: #1c1c1c;
 }
@@ -45,12 +43,10 @@ footer {
 }
 .footer_box {
     min-height: 150px;
-    width: 200px;
+    width: 150px;
     display: inline-flex;
     margin-top: 10px;
-    border: white solid 1px;
 }
-
 @media (prefers-color-scheme: dark) {
     body {
         background-color: black;
@@ -67,8 +63,17 @@ footer {
         background: #2c2c2c;
     }
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 600px){
+    nav {
+        position: initial;
+        height: 200px;
+    }
+    .nav_button {
+        text-align: center;
+        width: 100%;
+    }
     main {
+        margin-top: 0;
         margin-bottom: 800px;
     }
     footer {
