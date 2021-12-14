@@ -26,13 +26,20 @@ nav {
         color: white;
     }
 footer {
-    height: 300px;
     width: 100%;
     bottom: 0;
     position: absolute;
     background: #909090;
-
+    text-align: center;
 }
+.footer_box {
+    min-height: 150px;
+    width: 200px;
+    display: inline-flex;
+    margin-top: 10px;
+    border: white solid 1px;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: black;
@@ -47,6 +54,11 @@ footer {
         }
     footer {
         background: #2c2c2c;
+    }
+}
+@media screen and (max-width: 1000px){
+    .footer_box {
+        display: flex;
     }
 }
 
